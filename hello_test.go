@@ -14,7 +14,7 @@ func Add(a, b int) int {
 }
 
 
-func TestAdd1(t *testing.T) {
+func Test_Add1(t *testing.T) {
     if Add(2, 3) != 5 {
          t.Error("result is wrong!")
     } else {
@@ -23,7 +23,7 @@ func TestAdd1(t *testing.T) {
 }
 
 
-func TestAdd2(t *testing.T) {
+func Test_Add2(t *testing.T) {
     if Add(2, 3) != 6 {
          t.Fatal("result is wrong!")
     } else {
