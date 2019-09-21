@@ -24,7 +24,7 @@ func Test_Add1(t *testing.T) {
 
 
 func Test_Add2(t *testing.T) {
-    if Add(2, 3) != 6 {
+    if Add(2, 3) == 6 {
          t.Fatal("result is wrong!")
     } else {
          t.Log("result is right")
